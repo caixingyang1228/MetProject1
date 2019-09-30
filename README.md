@@ -1,3 +1,5 @@
+***Met Project 1***
+
 **Research Topic**
 From the birth of the concept of a nation-state to the end of World War I, the ontology/symbol of painting attention has changed with each trend of thought.
 
@@ -14,12 +16,12 @@ From the birth of the concept of a nation-state to the end of World War I, the o
 1919 WordWar I End
 
 2. Crawl data by [Met Api](https://metmuseum.github.io/)
-3. Structure the data
+3. Structure the data [\[All Data by .csv\]](https://github.com/caixingyang1228/MetProject1/blob/master/museumdata.csv)
     1. According to the (time->tag number) classification, calculate the frequency of each tag, from high to low.
-    2. Cleaning the “noise” tags (such as men/women) that appear in almost every painting. Basic classification of the these tags, such as religious related/industrial related/daily. Twenty-two tags with high frequency and no duplication of meaning were selected to form a tag pool.
+    2. Cleaning the “noise” tags (such as men/women) that appear in almost every painting. Basic classification of the these tags, such as religious related/industrial related/daily. Twenty-two tags with high frequency and no duplication of meaning were selected to form a tag pool. 
     3. Try to eliminate the influence of the uneven number of collections in each stage of the Metropolis, using the formula ( single tag frequency /the total number of tags in the time period of the tag pool).
 
-Selected tags
+Selected tags [\[.json file\]](https://github.com/caixingyang1228/MetProject1/blob/master/YeartoTag.json)
 *Angels
 *Animals
 *Boats
@@ -47,6 +49,6 @@ Selected tags
 
 **Visualization**
 Using Ranking Plot as the base for design, the concept of percentage and timeline is added to present more information dimensions. The classification of the color range by tags increases the readability of the research results.
-
+![enter image description here](https://raw.githubusercontent.com/caixingyang1228/MetProject1/master/datavis.png?token=AHYJMBNEFLAWNXA3O5EORFS5TNMMU)
 **Results**
 The study found that with the influence of each trend of thought, the symbols and subjects in the painting will change significantly. However, it is difficult to get detailed results because Met Api's tag markup is too general.
